@@ -166,8 +166,7 @@ class App extends Component {
           this.backButtonEnabled = nativeEvent.canGoBack; // 这时记录下页面的可回退状态,然后通过ref获取该webview,调用它的goBack方法就可以了
         }
       }}
-      // source={{ uri: 'http://10.45.24.54:8000/' }} />
-      source={{ uri: 'http://v9-mobile-test.800best.com' }} />
+      source={{ uri: 'http://XX.XX.XX.XX:8000/' }} />
   }
 
 };
